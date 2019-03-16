@@ -1,6 +1,6 @@
 class ApplicationController < ActionController::Base
   def index
-    @book = Book.all
+    @books = Book.all
   end
 
   def new
