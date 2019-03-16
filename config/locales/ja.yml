@@ -1,18 +1,24 @@
----
 ja:
   activerecord:
-  models:
-    book: 書籍情報
-  attributes:
-    book:
-      title: タイトル
-      price: 価格
-      publish_date: 発売日
-      description: 詳細
-      new_image: 画像
-      image: 画像
-      category_id: カテゴリー
-      category: カテゴリー
+    models:
+      book: 書籍情報
+      user: ユーザー
+    attributes:
+      book:
+        title: タイトル
+        price: 価格
+        publish_date: 発売日
+        description: 詳細
+        new_image: 画像
+        image: 画像
+        category_id: カテゴリー
+        category: カテゴリー
+      user:
+        email: メールアドレス
+        nick_name: ニックネーム
+        avatar: プロフィール画像
+        password: パスワード
+        password_confirmation: パスワード再入力
     errors:
       messages:
         record_invalid: 'バリデーションに失敗しました: %{errors}'
