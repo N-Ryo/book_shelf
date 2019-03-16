@@ -9,6 +9,7 @@ ja:
       price_yen: "¥%{price}"
       publish_date: 発売日
       description: 商品の説明
+      category: カテゴリー
       edit: 編集
       return: 戻る
       delete: 削除
@@ -16,5 +17,7 @@ ja:
       question_book: "%{book}を削除しますか？"
       delete_action: 削除する
       chancel: キャンセル
+    form:
+      include_blank: カテゴリーを選択して下さい
     index:
       price_yen: "¥%{price}"
