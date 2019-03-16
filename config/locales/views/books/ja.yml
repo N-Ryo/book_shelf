@@ -16,6 +16,7 @@ ja:
       modal_title: 書籍削除
       question_book: "%{book}を削除しますか？"
       delete_action: 削除する
+      review_new: レビューを投稿する
       chancel: キャンセル
     form:
       include_blank: カテゴリーを選択して下さい
