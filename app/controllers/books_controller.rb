@@ -20,7 +20,7 @@ class BooksController < ApplicationController
   end
 
   def show
-    @book = Book.with_attached_image.includes(reviews: :user).find(params[:id])
+    @book = Book.with_attached_image.includes(:reviews, :user).find(params[:id])
   end
 
   def edit

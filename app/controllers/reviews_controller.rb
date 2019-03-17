@@ -1,5 +1,5 @@
 class ReviewsController < ApplicationController
-  before_action :set_book, only: [:show, :new, :edit]
+  before_action :set_book, only: [:show, :new, :create, :edit]
   before_action :set_review, only: [:show, :edit, :update, :destroy]
 
   def new
